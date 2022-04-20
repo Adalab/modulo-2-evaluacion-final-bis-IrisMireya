@@ -1,0 +1,30 @@
+main{
+    background-color: $colorBackground;
+    width: 100%;
+    font-family: $font;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 35px;
+}
+.reload{
+    display: initial;
+}
+.users{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    width: 45%;
+    box-sizing: border-box;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+.photos{
+    border-radius: 40px;
+    width: 70px;
+    margin-top: 8px;
+}
